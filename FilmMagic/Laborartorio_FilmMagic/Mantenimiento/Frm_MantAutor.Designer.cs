@@ -123,7 +123,7 @@
             this.gpb_datos.Margin = new System.Windows.Forms.Padding(2);
             this.gpb_datos.Name = "gpb_datos";
             this.gpb_datos.Padding = new System.Windows.Forms.Padding(2);
-            this.gpb_datos.Size = new System.Drawing.Size(493, 151);
+            this.gpb_datos.Size = new System.Drawing.Size(493, 108);
             this.gpb_datos.TabIndex = 94;
             this.gpb_datos.TabStop = false;
             this.gpb_datos.Text = "Datos";
@@ -285,7 +285,7 @@
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(43)))), ((int)(((byte)(119)))));
             this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(241, 347);
+            this.label2.Location = new System.Drawing.Point(258, 298);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(339, 19);
             this.label2.TabIndex = 95;
@@ -295,7 +295,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(609, 388);
+            this.ClientSize = new System.Drawing.Size(609, 336);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.Pnl_nombreForm);
             this.Controls.Add(this.gpb_datos);

@@ -42,14 +42,14 @@
             this.proveedorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sucursalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.procesosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.rentarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.herramientasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.label2 = new System.Windows.Forms.Label();
-            this.rentaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label1 = new System.Windows.Forms.Label();
             this.menuStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
             this.SuspendLayout();
@@ -159,10 +159,17 @@
             // procesosToolStripMenuItem
             // 
             this.procesosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.rentaToolStripMenuItem});
+            this.rentarToolStripMenuItem});
             this.procesosToolStripMenuItem.Name = "procesosToolStripMenuItem";
             this.procesosToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
             this.procesosToolStripMenuItem.Text = "Procesos";
+            // 
+            // rentarToolStripMenuItem
+            // 
+            this.rentarToolStripMenuItem.Name = "rentarToolStripMenuItem";
+            this.rentarToolStripMenuItem.Size = new System.Drawing.Size(108, 22);
+            this.rentarToolStripMenuItem.Text = "Rentar";
+            this.rentarToolStripMenuItem.Click += new System.EventHandler(this.RentarToolStripMenuItem_Click);
             // 
             // reportesToolStripMenuItem
             // 
@@ -201,25 +208,17 @@
             this.toolStripStatusLabel.Text = "Estado";
             this.toolStripStatusLabel.Click += new System.EventHandler(this.ToolStripStatusLabel_Click);
             // 
-            // label2
+            // label1
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(43)))), ((int)(((byte)(119)))));
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(716, 24);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(339, 19);
-            this.label2.TabIndex = 97;
-            this.label2.Text = "Conny María Barrios Moreno - 0901 15 4555";
-            // 
-            // rentaToolStripMenuItem
-            // 
-            this.rentaToolStripMenuItem.Name = "rentaToolStripMenuItem";
-            this.rentaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.rentaToolStripMenuItem.Text = "Renta";
-            this.rentaToolStripMenuItem.Click += new System.EventHandler(this.rentaToolStripMenuItem_Click);
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(43)))), ((int)(((byte)(119)))));
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(437, 24);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(339, 19);
+            this.label1.TabIndex = 90;
+            this.label1.Text = "Conny María Barrios Moreno - 0901 15 4555";
             // 
             // MenuPrincipal
             // 
@@ -227,11 +226,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(43)))), ((int)(((byte)(119)))));
             this.ClientSize = new System.Drawing.Size(1055, 558);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.statusStrip);
             this.Controls.Add(this.menuStrip);
             this.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ForeColor = System.Drawing.Color.White;
+            this.ForeColor = System.Drawing.Color.Black;
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip;
             this.Margin = new System.Windows.Forms.Padding(4);
@@ -269,8 +268,8 @@
         private System.Windows.Forms.ToolStripMenuItem productoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem proveedorToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sucursalToolStripMenuItem;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ToolStripMenuItem rentaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem rentarToolStripMenuItem;
+        private System.Windows.Forms.Label label1;
     }
 }
 
