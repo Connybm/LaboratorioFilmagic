@@ -72,7 +72,7 @@
             this.gpb_datos.Margin = new System.Windows.Forms.Padding(2);
             this.gpb_datos.Name = "gpb_datos";
             this.gpb_datos.Padding = new System.Windows.Forms.Padding(2);
-            this.gpb_datos.Size = new System.Drawing.Size(592, 167);
+            this.gpb_datos.Size = new System.Drawing.Size(592, 151);
             this.gpb_datos.TabIndex = 75;
             this.gpb_datos.TabStop = false;
             this.gpb_datos.Text = "Datos";
@@ -80,11 +80,12 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(70, 112);
+            this.label3.Location = new System.Drawing.Point(69, 112);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(71, 17);
+            this.label3.Size = new System.Drawing.Size(85, 18);
             this.label3.TabIndex = 14;
             this.label3.Text = "Direccion:";
             // 
@@ -119,22 +120,24 @@
             // lbl_estado
             // 
             this.lbl_estado.AutoSize = true;
+            this.lbl_estado.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_estado.ForeColor = System.Drawing.Color.Black;
-            this.lbl_estado.Location = new System.Drawing.Point(406, 40);
+            this.lbl_estado.Location = new System.Drawing.Point(400, 40);
             this.lbl_estado.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_estado.Name = "lbl_estado";
-            this.lbl_estado.Size = new System.Drawing.Size(52, 17);
+            this.lbl_estado.Size = new System.Drawing.Size(56, 18);
             this.lbl_estado.TabIndex = 10;
             this.lbl_estado.Text = "Estado";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(386, 76);
+            this.label2.Location = new System.Drawing.Point(385, 76);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(68, 17);
+            this.label2.Size = new System.Drawing.Size(75, 18);
             this.label2.TabIndex = 5;
             this.label2.Text = "Telefono:";
             // 
@@ -149,22 +152,24 @@
             // Lbl_nom
             // 
             this.Lbl_nom.AutoSize = true;
+            this.Lbl_nom.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_nom.ForeColor = System.Drawing.Color.Black;
-            this.Lbl_nom.Location = new System.Drawing.Point(20, 74);
+            this.Lbl_nom.Location = new System.Drawing.Point(19, 74);
             this.Lbl_nom.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Lbl_nom.Name = "Lbl_nom";
-            this.Lbl_nom.Size = new System.Drawing.Size(132, 17);
+            this.Lbl_nom.Size = new System.Drawing.Size(152, 18);
             this.Lbl_nom.TabIndex = 2;
             this.Lbl_nom.Text = "Nombre Proveedor:";
             // 
             // Lbl_codPercepcion
             // 
             this.Lbl_codPercepcion.AutoSize = true;
+            this.Lbl_codPercepcion.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_codPercepcion.ForeColor = System.Drawing.Color.Black;
-            this.Lbl_codPercepcion.Location = new System.Drawing.Point(20, 34);
+            this.Lbl_codPercepcion.Location = new System.Drawing.Point(19, 34);
             this.Lbl_codPercepcion.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Lbl_codPercepcion.Name = "Lbl_codPercepcion";
-            this.Lbl_codPercepcion.Size = new System.Drawing.Size(141, 17);
+            this.Lbl_codPercepcion.Size = new System.Drawing.Size(170, 18);
             this.Lbl_codPercepcion.TabIndex = 1;
             this.Lbl_codPercepcion.Text = "Codigo de proveedor";
             // 
@@ -355,7 +360,7 @@
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(43)))), ((int)(((byte)(119)))));
             this.label4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(382, 374);
+            this.label4.Location = new System.Drawing.Point(382, 355);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(339, 19);
             this.label4.TabIndex = 96;
@@ -365,7 +370,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(740, 416);
+            this.ClientSize = new System.Drawing.Size(740, 384);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.gpb_datos);
             this.Controls.Add(this.Btn_consultar);

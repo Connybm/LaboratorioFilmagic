@@ -26,7 +26,7 @@ DROP TABLE IF EXISTS `autor`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `autor` (
   `pkidautor` int NOT NULL,
-  `nombre` int DEFAULT NULL,
+  `nombre` varchar(45) DEFAULT NULL,
   `estado` tinyint DEFAULT NULL,
   PRIMARY KEY (`pkidautor`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;

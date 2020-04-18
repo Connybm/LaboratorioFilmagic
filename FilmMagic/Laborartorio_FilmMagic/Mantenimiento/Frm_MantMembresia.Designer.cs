@@ -150,30 +150,33 @@
             // lbl_Valor
             // 
             this.lbl_Valor.AutoSize = true;
+            this.lbl_Valor.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Valor.ForeColor = System.Drawing.Color.Black;
-            this.lbl_Valor.Location = new System.Drawing.Point(283, 74);
+            this.lbl_Valor.Location = new System.Drawing.Point(268, 74);
             this.lbl_Valor.Name = "lbl_Valor";
-            this.lbl_Valor.Size = new System.Drawing.Size(91, 13);
+            this.lbl_Valor.Size = new System.Drawing.Size(104, 15);
             this.lbl_Valor.TabIndex = 9;
             this.lbl_Valor.Text = "Fecha Caducidad";
             // 
             // lbl_Descripcion
             // 
             this.lbl_Descripcion.AutoSize = true;
+            this.lbl_Descripcion.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Descripcion.ForeColor = System.Drawing.Color.Black;
             this.lbl_Descripcion.Location = new System.Drawing.Point(283, 28);
             this.lbl_Descripcion.Name = "lbl_Descripcion";
-            this.lbl_Descripcion.Size = new System.Drawing.Size(76, 13);
+            this.lbl_Descripcion.Size = new System.Drawing.Size(84, 15);
             this.lbl_Descripcion.TabIndex = 7;
             this.lbl_Descripcion.Text = "Fecha Emision";
             // 
             // lbl_nombre
             // 
             this.lbl_nombre.AutoSize = true;
+            this.lbl_nombre.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_nombre.ForeColor = System.Drawing.Color.Black;
             this.lbl_nombre.Location = new System.Drawing.Point(29, 74);
             this.lbl_nombre.Name = "lbl_nombre";
-            this.lbl_nombre.Size = new System.Drawing.Size(44, 13);
+            this.lbl_nombre.Size = new System.Drawing.Size(50, 15);
             this.lbl_nombre.TabIndex = 5;
             this.lbl_nombre.Text = "Nombre";
             // 
@@ -189,10 +192,11 @@
             // Lbl_codConcepto
             // 
             this.Lbl_codConcepto.AutoSize = true;
+            this.Lbl_codConcepto.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_codConcepto.ForeColor = System.Drawing.Color.Black;
-            this.Lbl_codConcepto.Location = new System.Drawing.Point(29, 25);
+            this.Lbl_codConcepto.Location = new System.Drawing.Point(22, 25);
             this.Lbl_codConcepto.Name = "Lbl_codConcepto";
-            this.Lbl_codConcepto.Size = new System.Drawing.Size(80, 13);
+            this.Lbl_codConcepto.Size = new System.Drawing.Size(91, 15);
             this.Lbl_codConcepto.TabIndex = 3;
             this.Lbl_codConcepto.Text = "Cod Membresia";
             // 

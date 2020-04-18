@@ -142,10 +142,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(534, 19);
+            this.label1.Location = new System.Drawing.Point(519, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(93, 13);
+            this.label1.Size = new System.Drawing.Size(106, 15);
             this.label1.TabIndex = 102;
             this.label1.Text = "Fecha Nacimiento";
             // 
@@ -160,10 +161,11 @@
             // lbl_TipoOp
             // 
             this.lbl_TipoOp.AutoSize = true;
+            this.lbl_TipoOp.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_TipoOp.ForeColor = System.Drawing.Color.Black;
             this.lbl_TipoOp.Location = new System.Drawing.Point(534, 68);
             this.lbl_TipoOp.Name = "lbl_TipoOp";
-            this.lbl_TipoOp.Size = new System.Drawing.Size(80, 13);
+            this.lbl_TipoOp.Size = new System.Drawing.Size(91, 15);
             this.lbl_TipoOp.TabIndex = 11;
             this.lbl_TipoOp.Text = "Cod Membresia";
             // 
@@ -179,10 +181,11 @@
             // lbl_Valor
             // 
             this.lbl_Valor.AutoSize = true;
+            this.lbl_Valor.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Valor.ForeColor = System.Drawing.Color.Black;
             this.lbl_Valor.Location = new System.Drawing.Point(272, 71);
             this.lbl_Valor.Name = "lbl_Valor";
-            this.lbl_Valor.Size = new System.Drawing.Size(49, 13);
+            this.lbl_Valor.Size = new System.Drawing.Size(53, 15);
             this.lbl_Valor.TabIndex = 9;
             this.lbl_Valor.Text = "Telefono";
             // 
@@ -198,10 +201,11 @@
             // lbl_Descripcion
             // 
             this.lbl_Descripcion.AutoSize = true;
+            this.lbl_Descripcion.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Descripcion.ForeColor = System.Drawing.Color.Black;
             this.lbl_Descripcion.Location = new System.Drawing.Point(272, 25);
             this.lbl_Descripcion.Name = "lbl_Descripcion";
-            this.lbl_Descripcion.Size = new System.Drawing.Size(52, 13);
+            this.lbl_Descripcion.Size = new System.Drawing.Size(60, 15);
             this.lbl_Descripcion.TabIndex = 7;
             this.lbl_Descripcion.Text = "Direccion";
             // 
@@ -217,10 +221,11 @@
             // lbl_nombre
             // 
             this.lbl_nombre.AutoSize = true;
+            this.lbl_nombre.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_nombre.ForeColor = System.Drawing.Color.Black;
             this.lbl_nombre.Location = new System.Drawing.Point(18, 71);
             this.lbl_nombre.Name = "lbl_nombre";
-            this.lbl_nombre.Size = new System.Drawing.Size(44, 13);
+            this.lbl_nombre.Size = new System.Drawing.Size(50, 15);
             this.lbl_nombre.TabIndex = 5;
             this.lbl_nombre.Text = "Nombre";
             // 
@@ -236,10 +241,11 @@
             // Lbl_codConcepto
             // 
             this.Lbl_codConcepto.AutoSize = true;
+            this.Lbl_codConcepto.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_codConcepto.ForeColor = System.Drawing.Color.Black;
             this.Lbl_codConcepto.Location = new System.Drawing.Point(18, 22);
             this.Lbl_codConcepto.Name = "Lbl_codConcepto";
-            this.Lbl_codConcepto.Size = new System.Drawing.Size(61, 13);
+            this.Lbl_codConcepto.Size = new System.Drawing.Size(70, 15);
             this.Lbl_codConcepto.TabIndex = 3;
             this.Lbl_codConcepto.Text = "Cod Cliente";
             // 
