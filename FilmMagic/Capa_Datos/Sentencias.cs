@@ -694,7 +694,5 @@ namespace Capa_Datos
                 return null;
             }
         }
-
-
     }
 }

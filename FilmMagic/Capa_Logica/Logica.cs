@@ -266,7 +266,5 @@ namespace Capa_Logica
             return sn.eliminarproducto(sCodigo);
 
         }
-
-
     }
 }
