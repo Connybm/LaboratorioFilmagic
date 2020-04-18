@@ -249,22 +249,24 @@
             // Lbl_nom
             // 
             this.Lbl_nom.AutoSize = true;
+            this.Lbl_nom.Font = new System.Drawing.Font("Shink", 8.25F);
             this.Lbl_nom.ForeColor = System.Drawing.Color.Black;
             this.Lbl_nom.Location = new System.Drawing.Point(20, 74);
             this.Lbl_nom.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Lbl_nom.Name = "Lbl_nom";
-            this.Lbl_nom.Size = new System.Drawing.Size(62, 17);
+            this.Lbl_nom.Size = new System.Drawing.Size(46, 15);
             this.Lbl_nom.TabIndex = 2;
             this.Lbl_nom.Text = "Nombre:";
             // 
             // Lbl_cod
             // 
             this.Lbl_cod.AutoSize = true;
+            this.Lbl_cod.Font = new System.Drawing.Font("Shink", 8.25F);
             this.Lbl_cod.ForeColor = System.Drawing.Color.Black;
             this.Lbl_cod.Location = new System.Drawing.Point(20, 34);
             this.Lbl_cod.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Lbl_cod.Name = "Lbl_cod";
-            this.Lbl_cod.Size = new System.Drawing.Size(135, 17);
+            this.Lbl_cod.Size = new System.Drawing.Size(97, 15);
             this.Lbl_cod.TabIndex = 1;
             this.Lbl_cod.Text = "COD Tipo Producto:";
             // 

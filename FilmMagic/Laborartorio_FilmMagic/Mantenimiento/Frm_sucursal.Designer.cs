@@ -80,11 +80,12 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Black;
             this.label6.Location = new System.Drawing.Point(413, 28);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(71, 17);
+            this.label6.Size = new System.Drawing.Size(85, 18);
             this.label6.TabIndex = 20;
             this.label6.Text = "Direccion:";
             // 
@@ -99,11 +100,12 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(70, 112);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(68, 17);
+            this.label3.Size = new System.Drawing.Size(75, 18);
             this.label3.TabIndex = 14;
             this.label3.Text = "Telefono:";
             // 
@@ -130,11 +132,12 @@
             // lbl_estado
             // 
             this.lbl_estado.AutoSize = true;
+            this.lbl_estado.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_estado.ForeColor = System.Drawing.Color.Black;
             this.lbl_estado.Location = new System.Drawing.Point(413, 71);
             this.lbl_estado.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_estado.Name = "lbl_estado";
-            this.lbl_estado.Size = new System.Drawing.Size(52, 17);
+            this.lbl_estado.Size = new System.Drawing.Size(56, 18);
             this.lbl_estado.TabIndex = 10;
             this.lbl_estado.Text = "Estado";
             // 
@@ -149,22 +152,24 @@
             // Lbl_nom
             // 
             this.Lbl_nom.AutoSize = true;
+            this.Lbl_nom.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_nom.ForeColor = System.Drawing.Color.Black;
             this.Lbl_nom.Location = new System.Drawing.Point(20, 74);
             this.Lbl_nom.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Lbl_nom.Name = "Lbl_nom";
-            this.Lbl_nom.Size = new System.Drawing.Size(119, 17);
+            this.Lbl_nom.Size = new System.Drawing.Size(135, 18);
             this.Lbl_nom.TabIndex = 2;
             this.Lbl_nom.Text = "Nombre sucursal:";
             // 
             // Lbl_codPercepcion
             // 
             this.Lbl_codPercepcion.AutoSize = true;
+            this.Lbl_codPercepcion.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_codPercepcion.ForeColor = System.Drawing.Color.Black;
             this.Lbl_codPercepcion.Location = new System.Drawing.Point(20, 34);
             this.Lbl_codPercepcion.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Lbl_codPercepcion.Name = "Lbl_codPercepcion";
-            this.Lbl_codPercepcion.Size = new System.Drawing.Size(132, 17);
+            this.Lbl_codPercepcion.Size = new System.Drawing.Size(160, 18);
             this.Lbl_codPercepcion.TabIndex = 1;
             this.Lbl_codPercepcion.Text = "Codigo de producto";
             // 

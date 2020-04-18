@@ -65,7 +65,7 @@
             this.Pnl_nombreForm.Location = new System.Drawing.Point(0, 0);
             this.Pnl_nombreForm.Margin = new System.Windows.Forms.Padding(2);
             this.Pnl_nombreForm.Name = "Pnl_nombreForm";
-            this.Pnl_nombreForm.Size = new System.Drawing.Size(904, 49);
+            this.Pnl_nombreForm.Size = new System.Drawing.Size(810, 49);
             this.Pnl_nombreForm.TabIndex = 3;
             // 
             // btn_Ayuda
@@ -73,7 +73,7 @@
             this.btn_Ayuda.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_Ayuda.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btn_Ayuda.Image = ((System.Drawing.Image)(resources.GetObject("btn_Ayuda.Image")));
-            this.btn_Ayuda.Location = new System.Drawing.Point(803, 8);
+            this.btn_Ayuda.Location = new System.Drawing.Point(717, 11);
             this.btn_Ayuda.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Ayuda.Name = "btn_Ayuda";
             this.btn_Ayuda.Size = new System.Drawing.Size(33, 31);
@@ -85,7 +85,7 @@
             this.btn_minimizar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_minimizar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btn_minimizar.Image = ((System.Drawing.Image)(resources.GetObject("btn_minimizar.Image")));
-            this.btn_minimizar.Location = new System.Drawing.Point(766, 8);
+            this.btn_minimizar.Location = new System.Drawing.Point(680, 11);
             this.btn_minimizar.Margin = new System.Windows.Forms.Padding(2);
             this.btn_minimizar.Name = "btn_minimizar";
             this.btn_minimizar.Size = new System.Drawing.Size(33, 31);
@@ -110,7 +110,7 @@
             this.btn_cerrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_cerrar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btn_cerrar.Image = ((System.Drawing.Image)(resources.GetObject("btn_cerrar.Image")));
-            this.btn_cerrar.Location = new System.Drawing.Point(841, 8);
+            this.btn_cerrar.Location = new System.Drawing.Point(755, 11);
             this.btn_cerrar.Margin = new System.Windows.Forms.Padding(2);
             this.btn_cerrar.Name = "btn_cerrar";
             this.btn_cerrar.Size = new System.Drawing.Size(33, 31);
@@ -132,16 +132,17 @@
             this.panel1.Controls.Add(this.Txt_Cod);
             this.panel1.Location = new System.Drawing.Point(12, 158);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(862, 107);
+            this.panel1.Size = new System.Drawing.Size(767, 107);
             this.panel1.TabIndex = 4;
             // 
             // lbl_TipoOp
             // 
             this.lbl_TipoOp.AutoSize = true;
+            this.lbl_TipoOp.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_TipoOp.ForeColor = System.Drawing.Color.Black;
-            this.lbl_TipoOp.Location = new System.Drawing.Point(549, 28);
+            this.lbl_TipoOp.Location = new System.Drawing.Point(534, 28);
             this.lbl_TipoOp.Name = "lbl_TipoOp";
-            this.lbl_TipoOp.Size = new System.Drawing.Size(80, 13);
+            this.lbl_TipoOp.Size = new System.Drawing.Size(90, 15);
             this.lbl_TipoOp.TabIndex = 11;
             this.lbl_TipoOp.Text = "Tipo Operacion";
             // 
@@ -157,10 +158,11 @@
             // lbl_Valor
             // 
             this.lbl_Valor.AutoSize = true;
+            this.lbl_Valor.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Valor.ForeColor = System.Drawing.Color.Black;
             this.lbl_Valor.Location = new System.Drawing.Point(272, 71);
             this.lbl_Valor.Name = "lbl_Valor";
-            this.lbl_Valor.Size = new System.Drawing.Size(31, 13);
+            this.lbl_Valor.Size = new System.Drawing.Size(36, 15);
             this.lbl_Valor.TabIndex = 9;
             this.lbl_Valor.Text = "Valor";
             // 
@@ -176,10 +178,11 @@
             // lbl_Descripcion
             // 
             this.lbl_Descripcion.AutoSize = true;
+            this.lbl_Descripcion.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Descripcion.ForeColor = System.Drawing.Color.Black;
             this.lbl_Descripcion.Location = new System.Drawing.Point(272, 25);
             this.lbl_Descripcion.Name = "lbl_Descripcion";
-            this.lbl_Descripcion.Size = new System.Drawing.Size(63, 13);
+            this.lbl_Descripcion.Size = new System.Drawing.Size(72, 15);
             this.lbl_Descripcion.TabIndex = 7;
             this.lbl_Descripcion.Text = "Descripcion";
             // 
@@ -195,10 +198,11 @@
             // lbl_nombre
             // 
             this.lbl_nombre.AutoSize = true;
+            this.lbl_nombre.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_nombre.ForeColor = System.Drawing.Color.Black;
             this.lbl_nombre.Location = new System.Drawing.Point(18, 71);
             this.lbl_nombre.Name = "lbl_nombre";
-            this.lbl_nombre.Size = new System.Drawing.Size(44, 13);
+            this.lbl_nombre.Size = new System.Drawing.Size(50, 15);
             this.lbl_nombre.TabIndex = 5;
             this.lbl_nombre.Text = "Nombre";
             // 
@@ -214,10 +218,11 @@
             // Lbl_codConcepto
             // 
             this.Lbl_codConcepto.AutoSize = true;
+            this.Lbl_codConcepto.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_codConcepto.ForeColor = System.Drawing.Color.Black;
             this.Lbl_codConcepto.Location = new System.Drawing.Point(18, 22);
             this.Lbl_codConcepto.Name = "Lbl_codConcepto";
-            this.Lbl_codConcepto.Size = new System.Drawing.Size(75, 13);
+            this.Lbl_codConcepto.Size = new System.Drawing.Size(85, 15);
             this.Lbl_codConcepto.TabIndex = 3;
             this.Lbl_codConcepto.Text = "Cod Concepto";
             // 
@@ -242,7 +247,7 @@
             this.Btn_consultar.ForeColor = System.Drawing.Color.White;
             this.Btn_consultar.Image = ((System.Drawing.Image)(resources.GetObject("Btn_consultar.Image")));
             this.Btn_consultar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Btn_consultar.Location = new System.Drawing.Point(558, 66);
+            this.Btn_consultar.Location = new System.Drawing.Point(475, 70);
             this.Btn_consultar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Btn_consultar.Name = "Btn_consultar";
             this.Btn_consultar.Size = new System.Drawing.Size(107, 83);
@@ -264,7 +269,7 @@
             this.Btn_borrar.ForeColor = System.Drawing.Color.White;
             this.Btn_borrar.Image = ((System.Drawing.Image)(resources.GetObject("Btn_borrar.Image")));
             this.Btn_borrar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Btn_borrar.Location = new System.Drawing.Point(475, 66);
+            this.Btn_borrar.Location = new System.Drawing.Point(392, 70);
             this.Btn_borrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Btn_borrar.Name = "Btn_borrar";
             this.Btn_borrar.Size = new System.Drawing.Size(87, 83);
@@ -286,7 +291,7 @@
             this.Btn_guardar.ForeColor = System.Drawing.Color.White;
             this.Btn_guardar.Image = ((System.Drawing.Image)(resources.GetObject("Btn_guardar.Image")));
             this.Btn_guardar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Btn_guardar.Location = new System.Drawing.Point(391, 66);
+            this.Btn_guardar.Location = new System.Drawing.Point(308, 70);
             this.Btn_guardar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Btn_guardar.Name = "Btn_guardar";
             this.Btn_guardar.Size = new System.Drawing.Size(87, 83);
@@ -308,7 +313,7 @@
             this.Btn_editar.ForeColor = System.Drawing.Color.White;
             this.Btn_editar.Image = ((System.Drawing.Image)(resources.GetObject("Btn_editar.Image")));
             this.Btn_editar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Btn_editar.Location = new System.Drawing.Point(308, 66);
+            this.Btn_editar.Location = new System.Drawing.Point(225, 70);
             this.Btn_editar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Btn_editar.Name = "Btn_editar";
             this.Btn_editar.Size = new System.Drawing.Size(87, 83);
@@ -330,7 +335,7 @@
             this.Btn_ingresar.ForeColor = System.Drawing.Color.White;
             this.Btn_ingresar.Image = ((System.Drawing.Image)(resources.GetObject("Btn_ingresar.Image")));
             this.Btn_ingresar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Btn_ingresar.Location = new System.Drawing.Point(228, 66);
+            this.Btn_ingresar.Location = new System.Drawing.Point(145, 70);
             this.Btn_ingresar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Btn_ingresar.Name = "Btn_ingresar";
             this.Btn_ingresar.Size = new System.Drawing.Size(87, 83);
@@ -346,7 +351,7 @@
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(43)))), ((int)(((byte)(119)))));
             this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(535, 281);
+            this.label2.Location = new System.Drawing.Point(463, 276);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(339, 19);
             this.label2.TabIndex = 96;
@@ -356,7 +361,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(900, 315);
+            this.ClientSize = new System.Drawing.Size(807, 308);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.Btn_consultar);
             this.Controls.Add(this.Btn_borrar);
