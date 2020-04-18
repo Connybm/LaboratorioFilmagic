@@ -57,7 +57,21 @@ namespace Laborartorio_FilmMagic
         {
             this.Close();
         }
-        
+
+        private void CutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void CopyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void PasteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+        }
+
+       
+
         private void CascadeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             LayoutMdi(MdiLayout.Cascade);
@@ -91,6 +105,11 @@ namespace Laborartorio_FilmMagic
 
         }
 
+        private void EditMenu_Click(object sender, EventArgs e)
+        {
+
+        }
+
         bool ventanaConcepto = false;
         Mnt_Concepto concepto = new Mnt_Concepto();     
         private void ConceptoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -113,6 +132,7 @@ namespace Laborartorio_FilmMagic
                 concepto.WindowState = System.Windows.Forms.FormWindowState.Normal;
             }
         }
+
 
         bool ventanaMembresia = false;
         Frm_MantMembresia memb= new Frm_MantMembresia();
@@ -160,6 +180,7 @@ namespace Laborartorio_FilmMagic
             }
         }
 
+
         bool ventanaTipo = false;
         Frm_MantTipoProducto tipo = new Frm_MantTipoProducto();
         private void TipoProductoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -182,6 +203,7 @@ namespace Laborartorio_FilmMagic
                 tipo.WindowState = System.Windows.Forms.FormWindowState.Normal;
             }
         }
+
 
         bool ventanaAutor = false;
         Frm_MantAutor autor = new Frm_MantAutor();
@@ -245,6 +267,7 @@ namespace Laborartorio_FilmMagic
                 producto.Show();
                 Application.DoEvents();
                 ventanaprodcuto = true;
+
             }
             else
             {
@@ -268,6 +291,7 @@ namespace Laborartorio_FilmMagic
                 proveedores.Show();
                 Application.DoEvents();
                 ventanaproveedores = true;
+
             }
             else
             {
@@ -291,6 +315,7 @@ namespace Laborartorio_FilmMagic
                 sucursal.Show();
                 Application.DoEvents();
                 ventanasucursal = true;
+
             }
             else
             {
@@ -300,7 +325,7 @@ namespace Laborartorio_FilmMagic
 
         bool ventanarenta = false;
         Proceso_Rentar renta = new Proceso_Rentar();
-        private void rentaToolStripMenuItem_Click(object sender, EventArgs e)
+        private void RentarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Proceso_Rentar);
             if (ventanarenta == false || frmC == null)
@@ -314,6 +339,7 @@ namespace Laborartorio_FilmMagic
                 renta.Show();
                 Application.DoEvents();
                 ventanarenta = true;
+
             }
             else
             {

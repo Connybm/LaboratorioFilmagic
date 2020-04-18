@@ -154,11 +154,17 @@
     <Compile Include="Mantenimiento\Frm_sucursal.Designer.cs">
       <DependentUpon>Frm_sucursal.cs</DependentUpon>
     </Compile>
-    <Compile Include="Menu_Principal.cs">
+    <Compile Include="MenuPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Menu_Principal.Designer.cs">
-      <DependentUpon>Menu_Principal.cs</DependentUpon>
+    <Compile Include="MenuPrincipal.Designer.cs">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\Proceso_Rentar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\Proceso_Rentar.Designer.cs">
+      <DependentUpon>Proceso_Rentar.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -216,8 +222,11 @@
     <EmbeddedResource Include="Mantenimiento\Frm_sucursal.resx">
       <DependentUpon>Frm_sucursal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Menu_Principal.resx">
-      <DependentUpon>Menu_Principal.cs</DependentUpon>
+    <EmbeddedResource Include="MenuPrincipal.resx">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\Proceso_Rentar.resx">
+      <DependentUpon>Proceso_Rentar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

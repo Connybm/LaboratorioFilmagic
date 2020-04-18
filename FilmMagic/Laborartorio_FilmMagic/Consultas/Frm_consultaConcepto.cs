@@ -9,7 +9,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Capa_Logica;
-using System.Data.Odbc;
 
 namespace Laborartorio_FilmMagic.Consultas
 {

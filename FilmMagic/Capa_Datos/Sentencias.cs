@@ -12,7 +12,6 @@ namespace Capa_Datos
         Conexion cn = new Conexion();
         OdbcCommand comm;
 
-
         //---------------Insertar Conceptos
         public OdbcDataReader InsertarConceptos(string sCodigo, string sNombre, string sDescripcion, string sValor, string sTipoOp)
         {
@@ -30,7 +29,6 @@ namespace Capa_Datos
                 return null;
             }
         }
-
 
         //---------------Modificar Conceptos
         public OdbcDataReader modificarConceptos(string sCodigo, string sNombre, string sDescripcion, string sValor,string sTipoOp)
@@ -84,7 +82,6 @@ namespace Capa_Datos
                 Console.WriteLine(err.Message);
                 return null;
             }
-
         }
 
         //---------------Insertar Membresia
@@ -104,7 +101,6 @@ namespace Capa_Datos
                 return null;
             }
         }
-
 
         //---------------Modificar Membresia
         public OdbcDataReader modificarMembresia(string sCodigo, string sNombre, string sFechaE, string sFechaV)
@@ -158,7 +154,6 @@ namespace Capa_Datos
                 Console.WriteLine(err.Message);
                 return null;
             }
-
         }
 
         //---------------Insertar Cliente
@@ -178,7 +173,6 @@ namespace Capa_Datos
                 return null;
             }
         }
-
 
         //---------------Modificar Cliente
         public OdbcDataReader modificarCliente(string sCodigo, string sNombre, string sDireccion, string telefono, string sCMembresia)
@@ -232,7 +226,6 @@ namespace Capa_Datos
                 Console.WriteLine(err.Message);
                 return null;
             }
-
         }
 
         //--------------------------------------------------------------------OBTENER COD SIGUIENTE--------------------------------------------------------------------//
@@ -258,7 +251,6 @@ namespace Capa_Datos
         }
 
         //---------------------------------------------------------------UPDATE TIPO DE PRODUCTO-----------------------------------------------------------------------------------------//
-
         public OdbcDataReader modificarTipo(string sCodigo, string sNombre)
         {
             try
@@ -295,7 +287,6 @@ namespace Capa_Datos
         }
 
         //--------------------------------------------------------------ELIMINAR TIPO DE PRODUCTO-----------------------------------------------------------------------------------------//
-
         public OdbcDataReader eliminarTipo(string sCodigo)
         {
             try
@@ -312,8 +303,8 @@ namespace Capa_Datos
                 return null;
             }
         }
-        //---------------------------------------------------------------CONSULTA TIPO CATEGORIA------------------------------------------------------------------------------------------//
 
+        //---------------------------------------------------------------CONSULTA TIPO CATEGORIA------------------------------------------------------------------------------------------//
         public OdbcDataReader consultaTipo()
         {
             try
@@ -329,13 +320,11 @@ namespace Capa_Datos
                 Console.WriteLine(err.Message);
                 return null;
             }
-
         }
 
         /*categoria*/
 
         //---------------------------------------------------------------UPDATE TIPO DE CATEGORIA----------------------------------------------------------------------------------------//
-
         public OdbcDataReader modificarCategoria(string sCodigo, string sNombre)
         {
             try
@@ -372,7 +361,6 @@ namespace Capa_Datos
         }
 
         //--------------------------------------------------------------ELIMINAR TIPO DE CATEGORIA-----------------------------------------------------------------------------------------//
-
         public OdbcDataReader eliminarCategoria(string sCodigo)
         {
             try
@@ -389,8 +377,8 @@ namespace Capa_Datos
                 return null;
             }
         }
+        
         //---------------------------------------------------------------CONSULTA CATEGORIA------------------------------------------------------------------------------------------//
-
         public OdbcDataReader consultaCategoria()
         {
             try
@@ -406,14 +394,10 @@ namespace Capa_Datos
                 Console.WriteLine(err.Message);
                 return null;
             }
-
         }
 
-
         /*AUTOR*/
-
         //---------------------------------------------------------------UPDATE TIPO DE AUTOR----------------------------------------------------------------------------------------//
-
         public OdbcDataReader modificarAutor(string sCodigo, string sNombre)
         {
             try
@@ -450,7 +434,6 @@ namespace Capa_Datos
         }
 
         //--------------------------------------------------------------ELIMINAR TIPO DE AUTOR-----------------------------------------------------------------------------------------//
-
         public OdbcDataReader eliminarAutor(string sCodigo)
         {
             try
@@ -467,8 +450,8 @@ namespace Capa_Datos
                 return null;
             }
         }
+        
         //---------------------------------------------------------------CONSULTA AUTOR------------------------------------------------------------------------------------------//
-
         public OdbcDataReader consultaAutor()
         {
             try
@@ -484,12 +467,7 @@ namespace Capa_Datos
                 Console.WriteLine(err.Message);
                 return null;
             }
-
         }
-
-
-
-
 
         //-------------------------------------------------------------------------Formulario de proveedores----------------------------------------------------------
         public OdbcDataReader consultarproveedor()
@@ -507,8 +485,8 @@ namespace Capa_Datos
                 Console.WriteLine(err.Message);
                 return null;
             }
-
         }
+
         public OdbcDataReader insertarproveedor(string sCodigo, string sNombre, string sdireccion, string stelefono, string sestado)
         {
             try
@@ -525,6 +503,7 @@ namespace Capa_Datos
                 return null;
             }
         }
+
         public OdbcDataReader modficarproveedor(string sCodigo, string sNombre, string sdireccion, string stelefono, string sestado)
         {
             try
@@ -574,7 +553,6 @@ namespace Capa_Datos
                 Console.WriteLine(err.Message);
                 return null;
             }
-
         }
 
         public OdbcDataReader insertarsucursal(string sCodigo, string sNombre, string sdireccion, string stelefono, string sestado)
@@ -626,7 +604,6 @@ namespace Capa_Datos
             }
         }
 
-
         //-------------------------------------------------------------------------Formulario de producto----------------------------------------------------------
         public OdbcDataReader consultaproducto()
         {
@@ -643,7 +620,6 @@ namespace Capa_Datos
                 Console.WriteLine(err.Message);
                 return null;
             }
-
         }
 
         public OdbcDataReader insertarproducto(string sCodigo, string sNombre, string dprecio, string idcategoria, string sestado, string idtipoprod, string idautor, string idproveedor)
@@ -684,6 +660,24 @@ namespace Capa_Datos
             {
                 cn.conexionbd();
                 string consulta = "UPDATE productos set estado='0' where pkidproducto='" + sCodigo + "';";
+                comm = new OdbcCommand(consulta, cn.conexionbd());
+                OdbcDataReader mostrar = comm.ExecuteReader();
+                return mostrar;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+        }
+
+        //--------Insertar Encabezado renta
+        public OdbcDataReader InsertarRentaEncabezado(string sCodigo, string sMembresia, string sFechaA, string sFechaE, string sSucursal)
+        {
+            try
+            {
+                cn.conexionbd();
+                string consulta = "insert into renta_encabezado values(" + sCodigo + ", " + sMembresia + " ,'" + sFechaA + "','" + sFechaE + "'" + sSucursal + ");";
                 comm = new OdbcCommand(consulta, cn.conexionbd());
                 OdbcDataReader mostrar = comm.ExecuteReader();
                 return mostrar;
